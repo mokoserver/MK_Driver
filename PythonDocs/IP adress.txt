@@ -1,0 +1,8 @@
+Сводная таблица замены оборудования
+Исходный прибор            |       Исходный драйвер     |     Аналог (наличие)            |       Новый драйвер          |     IP / Подключение
+
+Векторный генератор        |       RFTEX_RTVG20         |       RS SMVB100A               |       RS_SMVB100A            |     169.254.1.122
+Анализатор спектра         |       Ceyear_RSA4082       |       RS FSV30                  |       RS_FSV30               |     169.254.1.123
+Осциллограф                |       Hantek_DPO8054E      |       RS RTO1024                |       RS_RTO1024             |     169.254.1.1231
+Источник питания           |       Hantek_HDP4000       |       BK PRECISION XLN3640      |       BK_PRECISION_XLN3640   |     USB-VISA
+Мультиметр                 |       Hantek_HDM3075       |       Keithley 2110             |       Keithley_2110          |     USB-VISA
