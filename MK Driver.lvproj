@@ -206,7 +206,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DE0D70E3-A823-4C26-BB76-B392BFFDF9D6}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RS_SMVB100A.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/RS_SMVB100A.dll</Property>
@@ -221,7 +221,7 @@
 				<Property Name="Dll_headerGUID" Type="Str">{B20D5678-7B0B-40D0-9A28-8FB3D6D4C459}</Property>
 				<Property Name="Dll_libGUID" Type="Str">{6936E10D-3345-42C5-BB5B-9A663B77AF21}</Property>
 				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E16D2CA8-C9A4-4052-9356-0756EEC5E1C2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E238BF50-6C92-40EC-BA74-4E73A3DBE2AF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
@@ -270,7 +270,7 @@
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfoCPTM" Type="Bin">'!#!!!!!!!E!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!-1$R!!!!!!!!!!%/45R-1V^&amp;=H*P=CZD&gt;'Q!'E"1!!-!!!!"!!)*:8*S&lt;X)A&lt;X6U!!1!!!!Q!0(?9V*:!!!!!2&amp;.4%R$8V*F=X"P&lt;H.F,G.U&lt;!!71$$`````#&amp;*F=X"P&lt;H.F!!!R!0%!!!!!!!!!!1Z.4%R$8U6S=G^S,G.U&lt;!!;1&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!,1$RXB`^6A!!!!%145R-1V^$&lt;WVN97ZE,G.U&lt;!!51$$`````"U.P&lt;7VB&lt;G1!0!$Q!!A!!Q!%!!1!"1!'!!1!"!!(!Q!!9!!!$11!!!!!!!!!!!!!#1!!!!I!!!!!!!!!!!!!!1I!!!!!!1!)</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Drivers/RS_SMBV100A/RS_SMBV100A.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Drivers/RS_SMBV100/RS_SMBV100A.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -298,7 +298,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E1A0192D-3B66-417D-8DEA-D8B02051E082}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RS_FSP.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/RS_FSP.dll</Property>
@@ -313,62 +313,59 @@
 				<Property Name="Dll_headerGUID" Type="Str">{8B75C00B-2430-4646-B9D2-81D9D0BCEB50}</Property>
 				<Property Name="Dll_libGUID" Type="Str">{530C7DF0-2245-4122-88EF-362DF9B596A3}</Property>
 				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E16D2CA8-C9A4-4052-9356-0756EEC5E1C2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E238BF50-6C92-40EC-BA74-4E73A3DBE2AF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Drivers/RS_SMBV100A/RS_SMBV100A.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">7</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">Command</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">0</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">4</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoLenInput" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">errorIn</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoDir" Type="Int">1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoInputIdx" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoLenInput" Type="Int">5</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoName" Type="Str">Response</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">3</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoDir" Type="Int">1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoInputIdx" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoLenInput" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoName" Type="Str">errorOut</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoOutputIdx" Type="Int">0</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]CallingConv" Type="Int">1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]Name" Type="Str">json</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoDir" Type="Int">3</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoInputIdx" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoLenInput" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">len</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoOutputIdx" Type="Int">-1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfoCPTM" Type="Bin">'!#!!!!!!!E!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!-1$R!!!!!!!!!!%/45R-1V^&amp;=H*P=CZD&gt;'Q!'E"1!!-!!!!"!!)*:8*S&lt;X)A&lt;X6U!!1!!!!Q!0(?9V*:!!!!!2&amp;.4%R$8V*F=X"P&lt;H.F,G.U&lt;!!71$$`````#&amp;*F=X"P&lt;H.F!!!R!0%!!!!!!!!!!1Z.4%R$8U6S=G^S,G.U&lt;!!;1&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%%!Q`````Q&gt;$&lt;WVN97ZE!$Q!]!!)!!-!"!!%!!5!"A!%!!1!"Q-!!'!!!!U%!!!!!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!%+!!!!!!%!#!</Property>
-				<Property Name="Source[2].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Drivers/RS_FSP/RS_FSP.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">ExportedVI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">7</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">Command</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">4</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">errorIn</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoLenInput" Type="Int">5</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoName" Type="Str">Response</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoName" Type="Str">errorOut</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoOutputIdx" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]CallingConv" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]Name" Type="Str">json</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">len</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfoCPTM" Type="Bin">'!#!!!!!!!E!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!-1$R!!!!!!!!!!%/45R-1V^&amp;=H*P=CZD&gt;'Q!'E"1!!-!!!!"!!)*:8*S&lt;X)A&lt;X6U!!1!!!!Q!0(?9V*:!!!!!2&amp;.4%R$8V*F=X"P&lt;H.F,G.U&lt;!!71$$`````#&amp;*F=X"P&lt;H.F!!!R!0%!!!!!!!!!!1Z.4%R$8U6S=G^S,G.U&lt;!!;1&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%%!Q`````Q&gt;$&lt;WVN97ZE!$Q!]!!)!!-!"!!%!!5!"A!%!!1!"Q-!!'!!!!U%!!!!!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!%+!!!!!!%!#!</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Drivers/RS_FSP/RS_FSP.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">MOKO</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">RS_SMVB100A</Property>
 				<Property Name="TgtF_internalName" Type="Str">RS_SMVB100A</Property>
@@ -393,7 +390,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CFD9A3D0-03ED-466C-BF01-4715AE74BC1F}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RS_RTO1024.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/RS_RTO1024.dll</Property>
@@ -411,7 +408,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E16D2CA8-C9A4-4052-9356-0756EEC5E1C2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Drivers/RS_SMBV100A/RS_SMBV100A.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
@@ -488,7 +485,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6C5FD3BA-B562-4730-8849-044AD6C0E4AB}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">BK_PRECISION_XLN3640.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/BK_PRECISION_XLN3640.dll</Property>
@@ -506,7 +503,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E16D2CA8-C9A4-4052-9356-0756EEC5E1C2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Drivers/RS_SMBV100A/RS_SMBV100A.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
@@ -583,7 +580,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8D092203-34D4-4E0C-8FBF-9D28EDACE770}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Keithley_2110.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/Keithley_2110.dll</Property>
@@ -601,7 +598,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E16D2CA8-C9A4-4052-9356-0756EEC5E1C2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Drivers/RS_SMBV100A/RS_SMBV100A.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
@@ -661,6 +658,98 @@
 				<Property Name="TgtF_productName" Type="Str">RS_SMVB100A</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{CF183A57-446D-403B-A450-215E7D3C0D55}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Keithley_2110.dll</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="RS_SMVB100B" Type="DLL">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E2B9BC6D-4B86-4E14-ACF4-4527B43DF405}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{384E7E50-35F6-4BB1-96B4-702FBA16F7F8}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FEB7E078-FBCF-409D-B004-860BFF68A1F2}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">RS_SMVB100B</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../DriverCompiled_DLL</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A7285ECE-B3F4-44C7-A461-B2FDA7C315C7}</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">RS_SMVB100B.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/RS_SMVB100B.dll</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../DriverCompiled_DLL/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
+				<Property Name="Dll_headerGUID" Type="Str">{7A888527-8FB1-4848-9AB3-3DEFDEC6B717}</Property>
+				<Property Name="Dll_libGUID" Type="Str">{30A3CEEA-98AD-4D17-92B4-A0532CFF0808}</Property>
+				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E238BF50-6C92-40EC-BA74-4E73A3DBE2AF}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">7</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">Command</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">4</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">errorIn</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoLenInput" Type="Int">5</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoName" Type="Str">Response</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoName" Type="Str">errorOut</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoOutputIdx" Type="Int">0</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[4]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]CallingConv" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]Name" Type="Str">json</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">len</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfoCPTM" Type="Bin">'!#!!!!!!!E!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!-1$R!!!!!!!!!!%/45R-1V^&amp;=H*P=CZD&gt;'Q!'E"1!!-!!!!"!!)*:8*S&lt;X)A&lt;X6U!!1!!!!Q!0(?9V*:!!!!!2&amp;.4%R$8V*F=X"P&lt;H.F,G.U&lt;!!71$$`````#&amp;*F=X"P&lt;H.F!!!R!0%!!!!!!!!!!1Z.4%R$8U6S=G^S,G.U&lt;!!;1&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!,1$RXB`^6A!!!!%145R-1V^$&lt;WVN97ZE,G.U&lt;!!51$$`````"U.P&lt;7VB&lt;G1!0!$Q!!A!!Q!%!!1!"1!'!!1!"!!(!Q!!9!!!$11!!!!!!!!!!!!!#1!!!!I!!!!!!!!!!!!!!1I!!!!!!1!)</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Drivers/RS_SMBV100/RS_SMBV100B.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">MOKO</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">RS_SMVB100B</Property>
+				<Property Name="TgtF_internalName" Type="Str">RS_SMVB100B</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © MOKO 2026</Property>
+				<Property Name="TgtF_productName" Type="Str">RS_SMVB100B</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{45B18BA2-1272-4C88-89C7-EA45567E9EA0}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">RS_SMVB100B.dll</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
