@@ -206,7 +206,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DE0D70E3-A823-4C26-BB76-B392BFFDF9D6}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RS_SMVB100A.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/RS_SMVB100A.dll</Property>

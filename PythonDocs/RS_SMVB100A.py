@@ -1,62 +1,65 @@
-import sys
-sys.path.append("C:\\MOKO SE\\PythonLibrary")
-
 import MOKO
 
 # =============================================================================
-# RS_SMVB100A — Векторный генератор сигналов (Rohde & Schwarz)
-# Аналог для RFTEX_RTVG20
-# IP: 169.254.1.122
+# R&S ГЕНЕРАТОР СИГНАЛОВ
 # =============================================================================
 
-# Присвоение имени драйвера
-VSG = "RS_SMVB100A"
+SG = "RS_SIGNAL_GENERATOR"
 
-# --- Инициализация и сброс ---------------------------------------------------
-MOKO.Driver(VSG, "set", "*RST")                          # Сброс в заводские настройки
-MOKO.Driver(VSG, "set", "*CLS")                          # Очистка очереди ошибок
-idn = MOKO.Driver(VSG, "get", "*IDN?")                   # Идентификация прибора
+# =============================================================================
+# ГРУППА 1: ИНИЦИАЛИЗАЦИЯ
+# =============================================================================
 
-# --- Несущая частота и мощность ----------------------------------------------
-MOKO.Driver(VSG, "set", "frequency = 2400000000")        # Несущая частота 2.4 ГГц
-MOKO.Driver(VSG, "set", "SCPI = FREQ 2400000000")        # Прямая SCPI (R&S синтаксис)
+idn = MOKO.Driver(SG, "init")                              # Идентификация
+MOKO.Driver(SG, "set", "# *RST")                           # Сброс
+MOKO.Driver(SG, "set", "# *CLS")                           # Очистка ошибок
 
-MOKO.Driver(VSG, "set", "power = -10")                   # Мощность -10 дБм
-MOKO.Driver(VSG, "set", "SCPI = POW -10")                # Прямая SCPI (R&S синтаксис)
+# =============================================================================
+# ГРУППА 2: ПЕРВИЧНАЯ НАСТРОЙКА СИГНАЛА
+# =============================================================================
 
-MOKO.Driver(VSG, "set", "output = ON")                   # Включение ВЧ-выхода
-MOKO.Driver(VSG, "set", "output = OFF")                  # Выключение ВЧ-выхода
-MOKO.Driver(VSG, "set", "SCPI = OUTP ON")                # Прямая SCPI (R&S синтаксис)
+MOKO.Driver(SG, "set", "freqmode = CW")                    # Режим частоты CW | SWEEP | LIST
+MOKO.Driver(SG, "set", "# SOUR:FREQ:MODE CW")              # SCPI (CW | SWEEP | LIST)
 
-# --- Импульсный режим --------------------------------------------------------
-MOKO.Driver(VSG, "set", "pulse_mode = ON")               # Включение импульсного режима
-MOKO.Driver(VSG, "set", "SCPI = PULM:STAT ON")           # Прямая SCPI
+MOKO.Driver(SG, "set", "frequency = 2.8GHz")               # Частота 2.8GHz | 1.5GHz | 100MHz
+MOKO.Driver(SG, "set", "# SOUR:FREQ 2.8GHz")               # SCPI (2.8GHz | 1.5GHz | 100MHz)
 
-MOKO.Driver(VSG, "set", "pulse_width = 0.0001")          # Длительность импульса 100 мкс
-MOKO.Driver(VSG, "set", "SCPI = PULM:WIDT 100US")        # Прямая SCPI
+MOKO.Driver(SG, "set", "power = -50dBm")                   # Мощность -50dBm | -30dBm | 0dBm
+MOKO.Driver(SG, "set", "# SOUR:POW -50dBm")                # SCPI (-50dBm | -30dBm | 0dBm)
 
-MOKO.Driver(VSG, "set", "pulse_period = 0.001")          # Период импульса 1 мс
-MOKO.Driver(VSG, "set", "SCPI = PULM:PER 1MS")           # Прямая SCPI
+MOKO.Driver(SG, "set", "arb_reset")                        # Сброс ARB
+MOKO.Driver(SG, "set", "# SOUR:BB:ARB:PRESet")             # SCPI (без параметров)
 
-# --- Цифровая модуляция ------------------------------------------------------
-MOKO.Driver(VSG, "set", "modulation_type = QPSK")        # Тип модуляции QPSK
-MOKO.Driver(VSG, "set", "SCPI = SOUR:BB:DM:TYPE QPSK")   # Прямая SCPI (R&S синтаксис)
+MOKO.Driver(SG, "set", "waveform = WCDMAFast")             # Выбор волны WCDMAFast | LTE | 5G
+MOKO.Driver(SG, "set", "# SOUR:BB:ARB:WAV:SEL 'WCDMAFast'") # SCPI ('WCDMAFast' | 'LTE' | '5G')
 
-MOKO.Driver(VSG, "set", "symbol_rate = 400000000")       # Символьная скорость 400 Мсимв/с
-MOKO.Driver(VSG, "set", "SCPI = SOUR:BB:DM:SRAT 400E6")  # Прямая SCPI (R&S синтаксис)
+MOKO.Driver(SG, "set", "arb_state = ON")                   # ARB состояние ON | OFF
+MOKO.Driver(SG, "set", "# SOUR:BB:ARB:STAT ON")            # SCPI (ON | OFF)
 
-MOKO.Driver(VSG, "set", "filter_type = RRC")             # Формирующий фильтр RRC
-MOKO.Driver(VSG, "set", "SCPI = SOUR:BB:DM:FILT:TYPE RRC")  # Прямая SCPI (R&S синтаксис)
+# =============================================================================
+# ГРУППА 3: УПРАВЛЕНИЕ И ИЗМЕНЕНИЯ
+# =============================================================================
 
-MOKO.Driver(VSG, "set", "filter_alpha = 0.35")           # Коэффициент сглаживания
-MOKO.Driver(VSG, "set", "SCPI = SOUR:BB:DM:FILT:RRC:ALPH 0.35")  # Прямая SCPI
+MOKO.Driver(SG, "set", "output = ON")                      # Включение/выключение выхода ON | OFF
+MOKO.Driver(SG, "set", "# OUTP ON")                        # SCPI (ON | OFF)
 
-# --- Генератор шума (AWGN) ---------------------------------------------------
-MOKO.Driver(VSG, "set", "noise_mode = ON")               # Включение AWGN
-MOKO.Driver(VSG, "set", "SCPI = SOUR:BB:NOIS:STAT ON")   # Прямая SCPI (R&S синтаксис)
+MOKO.Driver(SG, "set", "power = -30dBm")                   # Динамическое изменение мощности
+MOKO.Driver(SG, "set", "# SOUR:POW -30dBm")                # SCPI (-30dBm | -25dBm | -20dBm)
 
-MOKO.Driver(VSG, "set", "c_n_ratio = 30")                # Отношение C/N = 30 дБ
-MOKO.Driver(VSG, "set", "SCPI = SOUR:BB:NOIS:CN 30")     # Прямая SCPI (R&S синтаксис)
+MOKO.Driver(SG, "set", "frequency = 2.9GHz")               # Динамическое изменение частоты
+MOKO.Driver(SG, "set", "# SOUR:FREQ 2.9GHz")               # SCPI (2.9GHz | 3.0GHz | 3.1GHz)
 
-# --- Ожидание готовности -----------------------------------------------------
-MOKO.Driver(VSG, "set", "*OPC?")                         # Ожидание завершения операций
+# =============================================================================
+# ГРУППА 4: ЗАПРОСЫ (GET)
+# =============================================================================
+
+error = MOKO.Driver(SG, "get", "# SYST:ERR?")              # Запрос ошибки (возвращает "0,No error")
+
+output_state = MOKO.Driver(SG, "get", "output")            # Запрос состояния выхода
+output_state = MOKO.Driver(SG, "get", "# OUTP?")           # SCPI (возвращает 1 | 0)
+
+power_now = MOKO.Driver(SG, "get", "power")                # Запрос текущей мощности
+power_now = MOKO.Driver(SG, "get", "# SOUR:POW?")          # SCPI (возвращает -50.0)
+
+freq_now = MOKO.Driver(SG, "get", "frequency")             # Запрос текущей частоты
+freq_now = MOKO.Driver(SG, "get", "# SOUR:FREQ?")          # SCPI (возвращает 2800000000)
