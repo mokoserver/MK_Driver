@@ -206,7 +206,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DE0D70E3-A823-4C26-BB76-B392BFFDF9D6}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RS_SMVB100A.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/RS_SMVB100A.dll</Property>
@@ -298,7 +298,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E1A0192D-3B66-417D-8DEA-D8B02051E082}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RS_FSP.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/RS_FSP.dll</Property>
@@ -390,7 +390,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CFD9A3D0-03ED-466C-BF01-4715AE74BC1F}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RS_RTO1024.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/RS_RTO1024.dll</Property>
@@ -485,7 +485,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6C5FD3BA-B562-4730-8849-044AD6C0E4AB}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">BK_PRECISION_XLN3640.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/BK_PRECISION_XLN3640.dll</Property>
@@ -580,7 +580,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8D092203-34D4-4E0C-8FBF-9D28EDACE770}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Keithley_2110.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/Keithley_2110.dll</Property>
@@ -675,7 +675,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7285ECE-B3F4-44C7-A461-B2FDA7C315C7}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RS_SMVB100B.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/RS_SMVB100B.dll</Property>
