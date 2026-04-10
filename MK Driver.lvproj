@@ -580,7 +580,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8D092203-34D4-4E0C-8FBF-9D28EDACE770}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Keithley_2110.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../DriverCompiled_DLL/Keithley_2110.dll</Property>
